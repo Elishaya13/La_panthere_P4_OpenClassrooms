@@ -43,11 +43,19 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
+.bloc .container img {
+    border-radius: 45px;
+}
 
 .bloc-lg {
     padding: 100px 50px;
 }
-
+/*Ajout class.div-center pour positionner vignettes portfolio*/
+.div-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .bloc-md {
     padding: 50px;
 }
@@ -301,7 +309,7 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img {
+.navbar-brand  {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -840,7 +848,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
