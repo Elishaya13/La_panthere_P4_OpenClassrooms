@@ -47,9 +47,7 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -59,7 +57,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<div class="bloc bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -83,27 +81,28 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" title="Entrez votre nom" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" title="Entrez votre email" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="ask-know-us">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" title="Comment nous avez vous connu?" type="email" required id="ask-know-us" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control" title="Quel est votre projet?" rows="4" cols="50" required></textarea>
 					</div>
 					<form class=" col-sm-12 text-center" action="./includes/form_1.php">
 						<input class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" type="submit" value="Envoyer">
@@ -114,9 +113,8 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
+				<p>contact@agencelapanthere.com</p><p>2 place Sathonay 69001 Lyon</p><p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+
 			</div>
 		</div>
 	</div>
@@ -139,22 +137,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" title="Twitter" href="https://twitter.com" aria-label="logo twitter" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" title="Facebook" href="https://facebook.com" aria-label="logo facebook"target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social"title="Dribbble" href="https://dribbble.com" aria-label="logo dribbble"target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" title="Instagram" href="https://instagram.com"aria-label="logo instagram" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>

@@ -18,9 +18,14 @@ a:hover {
     color: white;
     cursor: pointer;
 }
-a:focus {
-    border: 1px solid black;
+/*Focus pour accessibilite*/
+li a:focus,a:focus span {
+    border: 2px solid black;
 }
+textarea {
+    resize: none;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
