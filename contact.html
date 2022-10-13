@@ -79,7 +79,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form method="post" action="./includes/form_1php" id="form_1" novalidate>
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -104,9 +104,9 @@
 						</label>
 						<textarea id="message" class="form-control" title="Quel est votre projet?" rows="4" cols="50" required></textarea>
 					</div>
-					<form class=" col-sm-12 text-center" action="./includes/form_1.php">
+
 						<input class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" type="submit" value="Envoyer">
-					</form>
+
 <!--					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">-->
 <!--						Envoyer-->
 <!--					</button>-->
@@ -134,7 +134,7 @@
 				<p class="text-center">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
-				<div class="row row-no-gutters social">
+				<div class="row row-no-gutters social row-social">
 					<div class="col-sm-3">
 						<div class="text-center">
 							<a class="social" title="Twitter" href="https://twitter.com" aria-label="logo twitter" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
@@ -142,17 +142,17 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" title="Facebook" href="https://facebook.com" aria-label="logo facebook"target="_blank"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" title="Facebook" href="https://facebook.com" aria-label="logo facebook" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social"title="Dribbble" href="https://dribbble.com" aria-label="logo dribbble"target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" title="Dribbble" href="https://dribbble.com" aria-label="logo dribbble" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" title="Instagram" href="https://instagram.com"aria-label="logo instagram" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" title="Instagram" href="https://instagram.com" aria-label="logo instagram" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>

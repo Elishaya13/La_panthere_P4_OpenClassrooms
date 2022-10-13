@@ -188,7 +188,7 @@ textarea {
     color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel icon {
+.d-bloc .panel {
     border-color: rgba(0, 0, 0, .7);
 }
 
@@ -314,7 +314,7 @@ textarea {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
+    /*font-weight: normal;*/
     font-weight: 600;
     line-height: 44px;
 }
@@ -359,7 +359,7 @@ textarea {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -414,7 +414,7 @@ textarea {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -558,7 +558,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -670,7 +670,7 @@ label,
 .btn,
 blockquote,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", Arial, sans-serif;
     font-weight: 400;
     color: rgba(60,60,60);
     /*color: #575757!important;*/
@@ -722,7 +722,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial , sans-serif;
 }
 
 .cta-hero {
@@ -887,13 +887,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -912,8 +912,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);*/
+        /*padding-right: constant(safe-area-inset-right);*/
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -923,8 +923,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);*/
+        /*padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1064,6 +1064,23 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+}
+.list-partenaires {
+    display: flex;
+    flex-direction: column;
+
+
+}
+@media (max-width: 767px) {
+    .list-partenaires {
+        align-items: center;
+        margin-top: 2rem;
+
+    }
+    .row-social {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
