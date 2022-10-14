@@ -65,6 +65,9 @@ textarea {
     flex-direction: column;
     align-items: center;
 }
+.div-center a:focus {
+    border: 1px solid black;
+}
 .bloc-md {
     padding: 50px;
 }
