@@ -15,3 +15,6 @@ Optimiser la taille et la vitesse d’un site web
 Écrire un code HTML et CSS maintenable
 Optimiser le référencement d'un site web
 Assurer l'accessibilité d'un site web
+
+Version à ameliorer : https://elishaya13.github.io/P4_La_panthere_origin/
+Code à ameliorer : https://github.com/Elishaya13/P4_La_panthere_origin
