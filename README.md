@@ -16,5 +16,6 @@ Optimiser la taille et la vitesse d’un site web
 Optimiser le référencement d'un site web
 Assurer l'accessibilité d'un site web
 
-Version à ameliorer : https://elishaya13.github.io/P4_La_panthere_origin/
-Code à ameliorer : https://github.com/Elishaya13/P4_La_panthere_origin
+Version à améliorer : https://elishaya13.github.io/P4_La_panthere_origin/
+Version améliorée : https://elishaya13.github.io/La_panthere_P4_OpenClassrooms/
+Code à améliorer : https://github.com/Elishaya13/P4_La_panthere_origin
